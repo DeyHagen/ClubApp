@@ -10,6 +10,6 @@ namespace ClassMembershipApplication.View
     public interface IView
     {
         void RunView();
-        IFieldValidator fieldValidator { get; set; }
+        IFieldValidator fieldValidator { get;}
     }
 }
