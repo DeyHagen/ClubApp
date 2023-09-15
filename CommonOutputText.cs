@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassMembershipApplication
+namespace ClubMembershipApplication
 {
     public class CommonOutputText
     {
@@ -13,8 +13,8 @@ namespace ClassMembershipApplication
             get
             {
                 string heading = "Cycling Club";
-                return $"{heading}{Environment.NewLine}{new string ('-',heading.Length)}";
-                 
+                return $"{heading}{Environment.NewLine}{new string('-', heading.Length)}";
+
             }
         }
         private static string RegistrationHeading

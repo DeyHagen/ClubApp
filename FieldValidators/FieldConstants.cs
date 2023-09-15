@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassMembershipApplication.FieldValidators
+namespace ClubMembershipApplication.FieldValidators
 {
     public class FieldConstants
     {
-        
+
         public enum UserRegistrationField
         {
             EmailAddress,

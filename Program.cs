@@ -1,13 +1,15 @@
 ﻿using System;
-
-namespace ClassMembershipApplication
+using ClubMembershipApplication.Views;
+namespace ClubMembershipApplication
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-           
+            IView mainView = Factory.GetMainViewObject();
+            mainView.RunView();
+
+            Console.ReadKey();
         }
     }
 }

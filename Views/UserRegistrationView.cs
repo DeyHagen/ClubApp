@@ -1,12 +1,9 @@
-﻿using ClassMembershipApplication.Data;
-using ClassMembershipApplication.FieldValidators;
-using ClassMembershipApplication;
-using ClubMembershipApplication.Data;
+﻿using ClubMembershipApplication.Data;
 using ClubMembershipApplication.FieldValidators;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static ClassMembershipApplication.CommonOutputFormat;
+using static ClubMembershipApplication.CommonOutputFormat;
 
 namespace ClubMembershipApplication.Views
 {

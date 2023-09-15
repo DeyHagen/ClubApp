@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Azure;
-using ClassMembershipApplication.Models;
+using ClubMembershipApplication.Models;
 using Microsoft.EntityFrameworkCore;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace ClassMembershipApplication.Data
+namespace ClubMembershipApplication.Data
 {
-    public class ClubMembershipDbContext: DbContext
+    public class ClubMembershipDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

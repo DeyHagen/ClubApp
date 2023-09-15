@@ -1,19 +1,19 @@
-﻿using ClassMembershipApplication.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassMembershipApplication.FieldValidators;
+using ClubMembershipApplication.FieldValidators;
+using ClubMembershipApplication.Models;
 
-namespace ClassMembershipApplication.Data
+namespace ClubMembershipApplication.Data
 {
     public class RegisteredUser : IRegister
 
     {
         public bool EmailExists(string emailAddress)
         {
-             bool emailExists = false;
+            bool emailExists = false;
             using (var dbContext = new ClubMembershipDbContext())
             {
                 emailExists = dbContext.Users.Any(u => u.EmailAddress.ToLower().Trim() == emailAddress.ToLower().Trim());

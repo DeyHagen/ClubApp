@@ -1,5 +1,4 @@
-﻿using ClassMembershipApplication.Data;
-using ClassMembershipApplication.FieldValidators;
+﻿using ClubMembershipApplication.Data;
 using FieldValidatorAPI;
 using Microsoft.EntityFrameworkCore.Internal;
 using System;

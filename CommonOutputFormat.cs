@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassMembershipApplication
+namespace ClubMembershipApplication
 {
 
     //This part is not usefull need to negotiate with FrontEnd to exchange color gama. Maybe enough send Enum value
-    public  static class CommonOutputFormat
+    public static class CommonOutputFormat
     {
         public enum FontTheme
         {
@@ -21,9 +21,9 @@ namespace ClassMembershipApplication
             if (fontTheme == FontTheme.Danger)
             {
                 Console.BackgroundColor = ConsoleColor.Red;
-                Console.ForegroundColor = ConsoleColor.White; 
+                Console.ForegroundColor = ConsoleColor.White;
             }
-            else if(fontTheme == FontTheme.Success)
+            else if (fontTheme == FontTheme.Success)
             {
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.ForegroundColor = ConsoleColor.White;
@@ -31,6 +31,7 @@ namespace ClassMembershipApplication
             else
             {
                 Console.ResetColor();
+            }
         }
     }
 }
