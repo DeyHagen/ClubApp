@@ -41,7 +41,6 @@ namespace ClubMembershipApplication.FieldValidators
 
         public FieldValidatorDel ValidatorDel => _fieldValidatorDel;
 
-        FieldValidatorDel IFieldValidator.FieldValidatorDel => throw new NotImplementedException();
 
         public UserRegistrationValidator(IRegister register)
         {
